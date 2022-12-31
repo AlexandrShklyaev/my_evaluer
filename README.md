@@ -1,11 +1,11 @@
 програмка решатель
 
-1) поднять сервисы: 
+1) поднять сервисы: \
     docker-compose up -d --build
 
-2) ввод примеров:
-    docker-compose run app
-        для остановки ввода ввести: stop
+2) ввод примеров: \
+    docker-compose run app \
+       ~ для остановки ввода ввести: stop
 
-3) вывод решения:
+3) вывод решения: \
     docker-compose run worker
